@@ -3,7 +3,7 @@
  *
  */
 
-const birthdayDate = new Date("2024-02-11 23:35:00");
+const birthdayDate = new Date("2024-02-12 00:00:00");
 let isFinished = false;
 
 function calculateTimeLeft(date: Date) {
@@ -91,7 +91,7 @@ export default function startCountdown(date: Date = birthdayDate) {
             isFinished = true;
             addNoteBtn.remove();
             countdown.innerHTML = `İyi ki doğdun!`;
-            smallText.textContent = `Bugün doğum günün Efe, dostlarının sana bıraktığı notlar oku.`;
+            smallText.textContent = `Bugün doğum günün Efe, dostlarının sana bıraktığı notları oku.`;
             goNotesBtn.classList.remove("secondary");
             goNotesBtn.style.width = "40%";
             goNotesBtn.classList.add("primary");
@@ -116,7 +116,7 @@ export default function startCountdown(date: Date = birthdayDate) {
     goNotesBtn.classList.add("primary");
     goNotesBtn.style.width = "40%";
     countdown.innerHTML = `İyi ki doğdun!`;
-    smallText.textContent = `Bugün doğum günün Efe, dostlarının sana bıraktığı notlar oku.`;
+    smallText.textContent = `Bugün doğum günün Efe, dostlarının sana bıraktığı notları oku.`;
     goNotesBtn.textContent = "Notları Oku";
   }
 }
