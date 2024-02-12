@@ -1,0 +1,42 @@
+label[for="theme-toggle"] {
+  width: 75px;
+  height: 40px;
+  position: relative;
+  display: block;
+  border-radius: 150px;
+  background: var(--background-2);
+  cursor: pointer;
+  border: 1px solid var(--static);
+  transition: all 0.3s ease;
+}
+
+label[for="theme-toggle"]::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  background: rgb(245, 153, 16);
+  border-radius: 180px;
+  transition: all 0.3s ease;
+}
+label[for="theme-toggle"]:active:after {
+  width: 37.5px;
+}
+
+input[type="checkbox"] {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked + label[for="theme-toggle"] {
+  background-color: var(--background-2);
+}
+
+input[type="checkbox"]:checked + label[for="theme-toggle"]::after {
+  left: 68px;
+  transform: translateX(-100%);
+  background: #d3d3d3;
+}

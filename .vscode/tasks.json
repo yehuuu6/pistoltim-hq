@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "Build Website",
+      "detail": "Builds the website using webpack in production mode."
+    },
+    {
+      "type": "npm",
+      "script": "dev",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "Build Website (Development)",
+      "detail": "Runs webpack in watch and development mode."
+    }
+  ]
+}
