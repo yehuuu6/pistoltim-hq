@@ -26,7 +26,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && ($_SERVER['HTTP_X_REQUESTED_WITH
         sendErrorResponse('İsminiz 50 karakterden uzun olamaz.');
     }
 
-    if (strlen($content) > 375) {
+    if (strlen($content) > 350) {
         sendErrorResponse('Notunuz 350 karakterden uzun olamaz.');
     }
 
