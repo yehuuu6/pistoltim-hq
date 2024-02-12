@@ -19,26 +19,6 @@ use Components\ReadNote;
 new Head();
 new Navbar();
 
-$names = [
-    "Eren Aydın",
-    "Enes Çakır",
-    "Gürsel Şanlı",
-    "Duygu Şeker",
-    "Çağatay Gedik",
-    "Şahnoza",
-    "İrem Damla Kakız",
-    "Dozer",
-    "Zerda Yıldırım",
-    "Burak Karadaş",
-    "Melisa Erol",
-    "Burak Cosgun",
-    "Derya Günel",
-    "Tuba Miray",
-    "Taha Binarbaşı",
-    "Yaşar Can Göksel",
-    "Memos",
-];
-
 new Notification();
 new CreateNote();
 new ReadNote();
