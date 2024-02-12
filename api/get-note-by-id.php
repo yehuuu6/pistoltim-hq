@@ -10,7 +10,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && ($_SERVER['HTTP_X_REQUESTED_WITH
         $date = new \DateTime();
         $date->setTimezone(new \DateTimeZone('Europe/Istanbul'));
         $now = $date->format('Y-m-d');
-        $deadline = '2024-02-11';
+        $deadline = '2024-02-12';
 
         if ($now == $deadline) {
             return true;
