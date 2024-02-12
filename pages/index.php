@@ -37,7 +37,7 @@ new ReadNote();
                     :
                     <span class="seconds"></span>
                 </h1>
-                <h5 id="small-welcome-text">Dünya 24 saatliğine güzel olmak üzere...</h5>
+                <h5 id="small-welcome-text">Hayat başlamak üzere...</h5>
             </div>
             <div class="btns">
                 <button id="see-notes" onclick="window.location.href='#notes'" class="secondary">Diğer notlara bak</button>
